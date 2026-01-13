@@ -1,0 +1,41 @@
+body{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading-one {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.transparent-form{
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+
+.transparent-form input, 
+.transparent-form label {
+    background: transparent;
+    color: white;
+}
+
+.transparent-form input {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
