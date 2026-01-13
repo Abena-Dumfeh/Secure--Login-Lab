@@ -18,7 +18,7 @@ $DB_USER = 'maame';
 // Password for maame@localhost.
 // NOTE: Hardcoding credentials is acceptable for local development only.
 // In production, credentials should be stored in environment variables.
-$DB_PASS = 'Maame_@_2026';
+$DB_PASS = 'YOUR_PASSWORD_HERE';
 
 // MySQLi error handling settings
 
